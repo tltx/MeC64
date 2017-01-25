@@ -1,0 +1,196 @@
+(pcb C:\Users\Tore\Documents\tangentbord_kretskort\adapter.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-01-19 BZR 3256)-stable")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  7600 -4000  8600 -4000  8600 -5550  7600 -5550  7600 -4000)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 19.7)
+      (clearance 11.9)
+      (clearance 11.9 (type default_smd))
+      (clearance 2.95 (type smd_smd))
+    )
+  )
+  (placement
+    (component 1pin
+      (place 1PIN_2 8350 -5350 front 0 (PN 2))
+      (place 1PIN 7850 -5350 front 0 (PN 1))
+    )
+    (component PIN_ARRAY_5x2
+      (place P2 8100 -4700 back 0 (PN CONN_10))
+      (place P5 8100 -4950 back 0 (PN CONN_10))
+    )
+    (component pin_array_3x2
+      (place P4 8100 -4350 back 180 (PN CONN_3X2))
+    )
+    (component "PIN_ARRAY-6X1"
+      (place P1 7650 -4300 back 270 (PN CONN_6))
+      (place P3 8100 -4050 back 0 (PN CONN_6))
+      (place P6 8550 -4300 back 90 (PN CONN_6))
+    )
+  )
+  (library
+    (image 1pin
+      (outline (path signal 15  90 0  85.5 -27.8  72.8 -52.9  52.9 -72.8  27.8 -85.5  0 -90
+            -27.8 -85.5  -52.9 -72.8  -72.8 -52.9  -85.5 -27.8  -90 0  -85.5 27.8
+            -72.8 52.9  -52.9 72.8  -27.8 85.5  0 90  27.8 85.5  52.9 72.8
+            72.8 52.9  85.5 27.8))
+      (pin Round[A]Pad_160_mil 1 0 0)
+    )
+    (image PIN_ARRAY_5x2
+      (outline (path signal 12  -250 100  250 100))
+      (outline (path signal 12  250 100  250 -100))
+      (outline (path signal 12  250 -100  -250 -100))
+      (outline (path signal 12  -250 -100  -250 100))
+      (pin Rect[A]Pad_60x60_mil 1 -200 -50)
+      (pin Round[A]Pad_60_mil 2 -200 50)
+      (pin Round[A]Pad_60_mil 3 -100 -50)
+      (pin Round[A]Pad_60_mil 4 -100 50)
+      (pin Round[A]Pad_60_mil 5 0 -50)
+      (pin Round[A]Pad_60_mil 6 0 50)
+      (pin Round[A]Pad_60_mil 7 100 -50)
+      (pin Round[A]Pad_60_mil 8 100 50)
+      (pin Round[A]Pad_60_mil 9 200 -50)
+      (pin Round[A]Pad_60_mil 10 200 50)
+    )
+    (image pin_array_3x2
+      (outline (path signal 8  150 -100  -150 -100))
+      (outline (path signal 8  -150 100  150 100))
+      (outline (path signal 8  150 100  150 -100))
+      (outline (path signal 8  -150 -100  -150 100))
+      (pin Rect[A]Pad_60x60_mil 1 -100 -50)
+      (pin Round[A]Pad_60_mil 2 -100 50)
+      (pin Round[A]Pad_60_mil 3 0 -50)
+      (pin Round[A]Pad_60_mil 4 0 50)
+      (pin Round[A]Pad_60_mil 5 100 -50)
+      (pin Round[A]Pad_60_mil 6 100 50)
+    )
+    (image "PIN_ARRAY-6X1"
+      (outline (path signal 12  -300 -50  -300 50))
+      (outline (path signal 12  -300 50  300 50))
+      (outline (path signal 12  300 50  300 -50))
+      (outline (path signal 12  300 -50  -300 -50))
+      (outline (path signal 12  -200 -50  -200 50))
+      (pin Rect[A]Pad_60x60_mil 1 -250 0)
+      (pin Round[A]Pad_60_mil 2 -150 0)
+      (pin Round[A]Pad_60_mil 3 -50 0)
+      (pin Round[A]Pad_60_mil 4 50 0)
+      (pin Round[A]Pad_60_mil 5 150 0)
+      (pin Round[A]Pad_60_mil 6 250 0)
+    )
+    (padstack Round[A]Pad_160_mil
+      (shape (circle Front 160))
+      (shape (circle Back 160))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Front 60))
+      (shape (circle Back 60))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_60x60_mil
+      (shape (rect Front -30 -30 30 30))
+      (shape (rect Back -30 -30 30 30))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net "N-000001"
+      (pins P2-2 P4-4)
+    )
+    (net "N-000002"
+      (pins P2-1 P3-1)
+    )
+    (net "N-000004"
+      (pins P5-9 P1-4)
+    )
+    (net "N-000005"
+      (pins P5-7 P1-2)
+    )
+    (net "N-000006"
+      (pins P5-3 P6-2)
+    )
+    (net "N-000007"
+      (pins P5-1 P6-4)
+    )
+    (net "N-000014"
+      (pins P5-2 P6-3)
+    )
+    (net "N-000015"
+      (pins P5-4 P6-1)
+    )
+    (net "N-000016"
+      (pins P5-6 P1-6)
+    )
+    (net "N-000017"
+      (pins P5-5 P1-5)
+    )
+    (net "N-000018"
+      (pins P5-8 P1-3)
+    )
+    (net "N-000020"
+      (pins P2-4 P4-5)
+    )
+    (net "N-000021"
+      (pins P2-3 P4-3)
+    )
+    (net "N-000022"
+      (pins P2-9 P3-6)
+    )
+    (net "N-000023"
+      (pins P2-8 P3-5)
+    )
+    (net "N-000024"
+      (pins P2-5 P3-2)
+    )
+    (net "N-000025"
+      (pins P2-7 P3-4)
+    )
+    (net "N-000028"
+      (pins P2-6 P3-3)
+    )
+    (class kicad_default "" "N-000001" "N-000002" "N-000004" "N-000005" "N-000006"
+      "N-000007" "N-000014" "N-000015" "N-000016" "N-000017" "N-000018" "N-000020"
+      "N-000021" "N-000022" "N-000023" "N-000024" "N-000025" "N-000028"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 19.7)
+        (clearance 11.9)
+      )
+    )
+  )
+  (wiring
+  )
+)

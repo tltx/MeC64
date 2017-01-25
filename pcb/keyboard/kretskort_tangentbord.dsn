@@ -1,0 +1,704 @@
+(pcb C:\Users\Tore\Documents\tangentbord_kretskort\kretskort_tangentbord.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-01-19 BZR 3256)-stable")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  787.4 -5826.8  787.4 -2204.7  15669.3 -2204.7  15669.3 -5826.8
+            787.4 -5826.8)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 19.7)
+      (clearance 19.8)
+      (clearance 19.8 (type default_smd))
+      (clearance 4.925 (type smd_smd))
+    )
+  )
+  (placement
+    (component SW_PLT_2PIN
+      (place SW25 1287.4 -4017.7 front 0 (PN RUN/STOP))
+      (place SW17 1846.5 -3269.7 front 0 (PN CTRL))
+      (place SW18 2783.5 -4017.7 front 0 (PN A))
+      (place SW19 4279.5 -4017.7 front 0 (PN D))
+      (place SW20 5775.6 -4017.7 front 0 (PN G))
+      (place SW21 7271.7 -4017.7 front 0 (PN J))
+      (place SW22 8767.7 -4017.7 front 0 (PN L))
+      (place SW23 10263.8 -4017.7 front 0 (PN ;))
+      (place SW24 12507.9 -4765.7 front 0 (PN L/R))
+      (place SW16 12133.9 -4017.7 front 0 (PN RETURN))
+      (place SW26 2409.4 -4765.7 front 0 (PN "L-SHIFT"))
+      (place SW27 3905.5 -4765.7 front 0 (PN X))
+      (place SW28 5401.6 -4765.7 front 0 (PN V))
+      (place SW29 6897.6 -4765.7 front 0 (PN N))
+      (place SW30 8393.7 -4765.7 front 0 (PN ,))
+      (place SW31 9889.7 -4765.7 front 0 (PN /))
+      (place SW33 6342.5 -5513.8 front 0 (PN SPACE))
+      (place SW32 11759.8 -4765.7 front 0 (PN U/D))
+      (place SW15 10822.8 -3269.7 front 0 (PN *))
+      (place SW14 9326.8 -3269.7 front 0 (PN P))
+      (place SW13 7830.7 -3269.7 front 0 (PN I))
+      (place SW12 6334.6 -3269.7 front 0 (PN Y))
+      (place SW11 4838.6 -3269.7 front 0 (PN R))
+      (place SW10 3342.5 -3269.7 front 0 (PN W))
+      (place SW9 1472.4 -2521.7 front 0 (PN "<--"))
+      (place SW8 12692.9 -2521.7 front 0 (PN DEL))
+      (place SW7 11196.9 -2521.7 front 0 (PN £))
+      (place SW6 9700.8 -2521.7 front 0 (PN +))
+      (place SW5 8204.7 -2521.7 front 0 (PN 9))
+      (place SW4 6708.7 -2521.7 front 0 (PN 7))
+      (place SW3 5212.6 -2521.7 front 0 (PN 5))
+      (place SW2 3716.5 -2521.7 front 0 (PN 3))
+      (place SW1 2220.5 -2521.7 front 0 (PN 1))
+      (place SW59 5960.6 -2521.7 front 0 (PN 6))
+      (place SW51 5586.6 -3269.7 front 0 (PN T))
+      (place SW34 3157.5 -4765.7 front 0 (PN Z))
+      (place SW53 8578.7 -3269.7 front 0 (PN O))
+      (place SW54 10074.8 -3269.7 front 0 (PN @))
+      (place SW55 11570.9 -3269.7 front 0 (PN UP))
+      (place SW56 14692.9 -4017.7 front 0 (PN F5))
+      (place SW57 2968.5 -2521.7 front 0 (PN 2))
+      (place SW58 4464.6 -2521.7 front 0 (PN 4))
+      (place SW52 7082.7 -3269.7 front 0 (PN U))
+      (place SW60 7456.7 -2521.7 front 0 (PN 8))
+      (place SW61 8952.8 -2521.7 front 0 (PN 0))
+      (place SW62 10448.8 -2521.7 front 0 (PN -))
+      (place SW63 11944.9 -2521.7 front 0 (PN HOME))
+      (place SW64 14692.9 -4765.7 front 0 (PN F7))
+      (place SW65 2035.4 -4017.7 front 0 (PN "SHIFT-LOCK"))
+      (place SW66 12318.9 -3269.7 front 0 (PN RESTORE))
+      (place SW40 14692.9 -2521.7 front 0 (PN F1))
+      (place SW35 4653.5 -4765.7 front 0 (PN C))
+      (place SW36 6149.6 -4765.7 front 0 (PN B))
+      (place SW37 7645.7 -4765.7 front 0 (PN M))
+      (place SW38 9141.7 -4765.7 front 0 (PN .))
+      (place SW39 11011.8 -4765.7 front 0 (PN "R-SHIFT"))
+      (place SW50 4090.6 -3269.7 front 0 (PN E))
+      (place SW41 1287.4 -4765.7 front 0 (PN C=))
+      (place SW42 3531.5 -4017.7 front 0 (PN S))
+      (place SW43 5027.6 -4017.7 front 0 (PN F))
+      (place SW44 6523.6 -4017.7 front 0 (PN H))
+      (place SW45 8019.7 -4017.7 front 0 (PN K))
+      (place SW46 9515.7 -4017.7 front 0 (PN :))
+      (place SW47 11011.8 -4017.7 front 0 (PN =))
+      (place SW48 14692.9 -3269.7 front 0 (PN F3))
+      (place SW49 2594.5 -3269.7 front 0 (PN Q))
+    )
+    (component R3
+      (place R1 14700.8 -4391.7 front 180 (PN 100))
+    )
+    (component PIN_ARRAY_5x2
+      (place P1 15236.2 -3017.7 back 90 (PN JOY2))
+      (place P2 15236.2 -3750 back 90 (PN JOY1))
+    )
+    (component PIN_ARRAY_3X1
+      (place K1 15177.2 -4360.2 back 90 (PN POWER_LED))
+    )
+    (component D
+      (place D1 2594.5 -2421.3 front 270 (PN D))
+      (place D26 2783.5 -4665.4 front 270 (PN D))
+      (place D18 3157.5 -3917.3 front 270 (PN D))
+      (place D19 4653.5 -3917.3 front 270 (PN D))
+      (place D20 6149.6 -3917.3 front 270 (PN D))
+      (place D21 7645.7 -3917.3 front 270 (PN D))
+      (place D22 9141.7 -3917.3 front 270 (PN D))
+      (place D23 10637.8 -3917.3 front 270 (PN D))
+      (place D24 12507.9 -4391.7 front 180 (PN D))
+      (place D25 1661.4 -3917.3 front 270 (PN D))
+      (place D17 2220.5 -3169.3 front 270 (PN D))
+      (place D27 4279.5 -4665.4 front 270 (PN D))
+      (place D28 5775.6 -4665.4 front 270 (PN D))
+      (place D29 7271.7 -4665.4 front 270 (PN D))
+      (place D30 8767.7 -4665.4 front 270 (PN D))
+      (place D31 10263.8 -4665.4 front 270 (PN D))
+      (place D32 12133.9 -4665.4 front 270 (PN D))
+      (place D33 6716.5 -5413.4 front 270 (PN D))
+      (place D66 11830.7 -5295.3 front 90 (PN D))
+      (place D16 12332.7 -3643.7 front 0 (PN D))
+      (place D15 11196.9 -3169.3 front 270 (PN D))
+      (place D14 9700.8 -3169.3 front 270 (PN D))
+      (place D13 8204.7 -3169.3 front 270 (PN D))
+      (place D12 6708.7 -3169.3 front 270 (PN D))
+      (place D11 5212.6 -3169.3 front 270 (PN D))
+      (place D10 3716.5 -3169.3 front 270 (PN D))
+      (place D9 1846.5 -2421.3 front 270 (PN D))
+      (place D8 12696.9 -2893.7 front 180 (PN D))
+      (place D7 11570.9 -2421.3 front 270 (PN D))
+      (place D6 10074.8 -2421.3 front 270 (PN D))
+      (place D5 8578.7 -2421.3 front 270 (PN D))
+      (place D4 7082.7 -2421.3 front 270 (PN D))
+      (place D3 5586.6 -2421.3 front 270 (PN D))
+      (place D2 4090.6 -2421.3 front 270 (PN D))
+      (place D34 3531.5 -4665.4 front 270 (PN D))
+      (place D65 2409.4 -3917.3 front 270 (PN D))
+      (place D64 14318.9 -4665.4 front 270 (PN D))
+      (place D63 12318.9 -2421.3 front 270 (PN D))
+      (place D62 10822.8 -2421.3 front 270 (PN D))
+      (place D61 9326.8 -2421.3 front 270 (PN D))
+      (place D60 7830.7 -2421.3 front 270 (PN D))
+      (place D59 6334.6 -2421.3 front 270 (PN D))
+      (place D58 4838.6 -2421.3 front 270 (PN D))
+      (place D57 3342.5 -2421.3 front 270 (PN D))
+      (place D56 14318.9 -3917.3 front 270 (PN D))
+      (place D55 11944.9 -3169.3 front 270 (PN D))
+      (place D54 10448.8 -3169.3 front 270 (PN D))
+      (place D53 8952.8 -3169.3 front 270 (PN D))
+      (place D52 7456.7 -3169.3 front 270 (PN D))
+      (place D51 5960.6 -3169.3 front 270 (PN D))
+      (place D50 4464.6 -3169.3 front 270 (PN D))
+      (place D35 5027.6 -4665.4 front 270 (PN D))
+      (place D36 6523.6 -4665.4 front 270 (PN D))
+      (place D37 8019.7 -4665.4 front 270 (PN D))
+      (place D38 9515.7 -4665.4 front 270 (PN D))
+      (place D39 11385.8 -4665.4 front 270 (PN D))
+      (place D40 14318.9 -2421.3 front 270 (PN D))
+      (place D41 1659.4 -4665.4 front 270 (PN D))
+      (place D42 3905.5 -3917.3 front 270 (PN D))
+      (place D43 5401.6 -3917.3 front 270 (PN D))
+      (place D44 6897.6 -3917.3 front 270 (PN D))
+      (place D45 8393.7 -3917.3 front 270 (PN D))
+      (place D46 9889.8 -3917.3 front 270 (PN D))
+      (place D47 11385.8 -3917.3 front 270 (PN D))
+      (place D48 14318.9 -3169.3 front 270 (PN D))
+      (place D49 2968.5 -3169.3 front 270 (PN D))
+      (place D67 12539.4 -5295.3 front 90 (PN D))
+      (place D68 14271.7 -5295.3 front 90 (PN D))
+      (place D69 14448.8 -5295.3 front 90 (PN D))
+      (place D70 12362.2 -5295.3 front 90 (PN D))
+      (place D71 12185 -5295.3 front 90 (PN D))
+      (place D72 12007.9 -5295.3 front 90 (PN D))
+      (place D73 14626 -5295.3 front 90 (PN D))
+      (place D74 14803.1 -5295.3 front 90 (PN D))
+      (place D75 14980.3 -5295.3 front 90 (PN D))
+    )
+    (component ATMEGA32U4
+      (place U1 13511.8 -5242.1 back 180 (PN ATMEGA32U4_BREAKOUT))
+    )
+    (component 1pin
+      (place h1 1011.8 -2441.7 front 0 (PN 1))
+    )
+    (component 1pin::1
+      (place h2 1011.8 -5593.7 front 0 (PN 1))
+      (place h3 15423.2 -5593.7 front 0 (PN 1))
+      (place h4 15423.2 -2441.7 front 0 (PN 1))
+    )
+  )
+  (library
+    (image SW_PLT_2PIN
+      (outline (path signal 6  -300 300  300 300))
+      (outline (path signal 6  300 300  300 -300))
+      (outline (path signal 6  300 -300  -300 -300))
+      (outline (path signal 6  -300 -300  -300 300))
+      (outline (path signal 6  250 0  247.5 -15.4  240.4 -29.3  229.3 -40.4  215.4 -47.5
+            200 -50  184.6 -47.5  170.7 -40.4  159.6 -29.3  152.5 -15.4
+            150 0  152.5 15.4  159.6 29.3  170.7 40.4  184.6 47.5  200 50
+            215.4 47.5  229.3 40.4  240.4 29.3  247.5 15.4))
+      (outline (path signal 6  -150 0  -152.5 -15.4  -159.6 -29.3  -170.7 -40.4  -184.6 -47.5
+            -200 -50  -215.4 -47.5  -229.3 -40.4  -240.4 -29.3  -247.5 -15.4
+            -250 0  -247.5 15.4  -240.4 29.3  -229.3 40.4  -215.4 47.5  -200 50
+            -184.6 47.5  -170.7 40.4  -159.6 29.3  -152.5 15.4))
+      (outline (path signal 6  -92.5 40  -40 92.5))
+      (outline (path signal 6  -40 92.5  40 92.5))
+      (outline (path signal 6  40 92.5  92.5 40))
+      (outline (path signal 6  92.5 40  92.5 -40))
+      (outline (path signal 6  92.5 -40  40 -92.5))
+      (outline (path signal 6  40 -92.5  -40 -92.5))
+      (outline (path signal 6  -40 -92.5  -92.5 -40))
+      (outline (path signal 6  -92.5 -40  -92.5 40))
+      (pin Round[A]Pad_105_mil 1 100 200)
+      (pin Round[A]Pad_105_mil 2 -150 100)
+      (keepout "" (circle Front 157))
+      (keepout "" (circle Back 157))
+    )
+    (image R3
+      (outline (path signal 8  -150 0  -130 0))
+      (outline (path signal 8  150 0  130 0))
+      (outline (path signal 8  130 0  130 40))
+      (outline (path signal 8  130 40  -130 40))
+      (outline (path signal 8  -130 40  -130 -40))
+      (outline (path signal 8  -130 -40  130 -40))
+      (outline (path signal 8  130 -40  130 0))
+      (outline (path signal 8  -130 20  -110 40))
+      (pin Round[A]Pad_55_mil 1 -150 0)
+      (pin Round[A]Pad_55_mil 2 150 0)
+    )
+    (image PIN_ARRAY_5x2
+      (outline (path signal 12  -250 100  250 100))
+      (outline (path signal 12  250 100  250 -100))
+      (outline (path signal 12  250 -100  -250 -100))
+      (outline (path signal 12  -250 -100  -250 100))
+      (pin Rect[A]Pad_60x60_mil 1 -200 -50)
+      (pin Round[A]Pad_60_mil 2 -200 50)
+      (pin Round[A]Pad_60_mil 3 -100 -50)
+      (pin Round[A]Pad_60_mil 4 -100 50)
+      (pin Round[A]Pad_60_mil 5 0 -50)
+      (pin Round[A]Pad_60_mil 6 0 50)
+      (pin Round[A]Pad_60_mil 7 100 -50)
+      (pin Round[A]Pad_60_mil 8 100 50)
+      (pin Round[A]Pad_60_mil 9 200 -50)
+      (pin Round[A]Pad_60_mil 10 200 50)
+    )
+    (image PIN_ARRAY_3X1
+      (outline (path signal 6  -150 -50  -150 50))
+      (outline (path signal 6  -150 50  150 50))
+      (outline (path signal 6  150 50  150 -50))
+      (outline (path signal 6  150 -50  -150 -50))
+      (outline (path signal 6  -50 50  -50 -50))
+      (pin Rect[A]Pad_60x60_mil 1 -100 0)
+      (pin Round[A]Pad_60_mil 2 0 0)
+      (pin Round[A]Pad_60_mil 3 100 0)
+    )
+    (image D
+      (outline (path signal 6  -55 55  -165 55))
+      (outline (path signal 6  -165 55  -165 -55))
+      (outline (path signal 6  -165 -55  -50 -55))
+      (outline (path signal 6  55 55  165 55))
+      (outline (path signal 6  165 55  165 -55))
+      (outline (path signal 6  165 -55  50 -55))
+      (pin Oval[A]Pad_95x75_mil 1 -100 0)
+      (pin Rect[A]Pad_85x75_mil 2 100 0)
+    )
+    (image ATMEGA32U4
+      (outline (path signal 15  150 -1050  150 -1250))
+      (outline (path signal 15  150 -1250  -150 -1250))
+      (outline (path signal 15  -150 -1250  -150 -1050))
+      (outline (path signal 15  -150 -1050  150 -1050))
+      (outline (path signal 15  -500 350  -500 -1200))
+      (outline (path signal 15  -500 -1200  500 -1200))
+      (outline (path signal 15  500 -1200  500 350))
+      (outline (path signal 15  500 350  -500 350))
+      (pin Round[A]Pad_60_mil 31 -100 -50)
+      (pin Round[A]Pad_60_mil 34 -100 50)
+      (pin Round[A]Pad_60_mil 32 0 -50)
+      (pin Round[A]Pad_60_mil 35 0 50)
+      (pin Round[A]Pad_60_mil 33 100 -50)
+      (pin Round[A]Pad_60_mil 36 100 50)
+      (pin Round[A]Pad_60_mil 14 -150 300)
+      (pin Round[A]Pad_60_mil 15 -50 300)
+      (pin Round[A]Pad_60_mil 13 -250 300)
+      (pin Round[A]Pad_60_mil 16 50 300)
+      (pin Round[A]Pad_60_mil 17 150 300)
+      (pin Round[A]Pad_60_mil 18 250 300)
+      (pin Round[A]Pad_60_mil 12 -450 300)
+      (pin Round[A]Pad_60_mil 19 450 300)
+      (pin Round[A]Pad_60_mil 11 -450 200)
+      (pin Round[A]Pad_60_mil 10 -450 100)
+      (pin Round[A]Pad_60_mil 9 -450 0)
+      (pin Round[A]Pad_60_mil 8 -450 -100)
+      (pin Round[A]Pad_60_mil 7 -450 -200)
+      (pin Round[A]Pad_60_mil 6 -450 -300)
+      (pin Round[A]Pad_60_mil 5 -450 -400)
+      (pin Round[A]Pad_60_mil 4 -450 -500)
+      (pin Round[A]Pad_60_mil 3 -450 -600)
+      (pin Round[A]Pad_60_mil 2 -450 -700)
+      (pin Round[A]Pad_60_mil 1 -450 -800)
+      (pin Round[A]Pad_60_mil 20 450 200)
+      (pin Round[A]Pad_60_mil 21 450 100)
+      (pin Round[A]Pad_60_mil 22 450 0)
+      (pin Round[A]Pad_60_mil 23 450 -100)
+      (pin Round[A]Pad_60_mil 24 450 -200)
+      (pin Round[A]Pad_60_mil 25 450 -300)
+      (pin Round[A]Pad_60_mil 26 450 -400)
+      (pin Round[A]Pad_60_mil 27 450 -500)
+      (pin Round[A]Pad_60_mil 28 450 -600)
+      (pin Round[A]Pad_60_mil 29 450 -700)
+      (pin Round[A]Pad_60_mil 30 450 -800)
+    )
+    (image 1pin
+      (outline (path signal 15  90 0  85.5 -27.8  72.8 -52.9  52.9 -72.8  27.8 -85.5  0 -90
+            -27.8 -85.5  -52.9 -72.8  -72.8 -52.9  -85.5 -27.8  -90 0  -85.5 27.8
+            -72.8 52.9  -52.9 72.8  -27.8 85.5  0 90  27.8 85.5  52.9 72.8
+            72.8 52.9  85.5 27.8))
+      (pin Round[A]Pad_160_mil @1 0 0)
+    )
+    (image 1pin::1
+      (outline (path signal 15  90 0  85.5 -27.8  72.8 -52.9  52.9 -72.8  27.8 -85.5  0 -90
+            -27.8 -85.5  -52.9 -72.8  -72.8 -52.9  -85.5 -27.8  -90 0  -85.5 27.8
+            -72.8 52.9  -52.9 72.8  -27.8 85.5  0 90  27.8 85.5  52.9 72.8
+            72.8 52.9  85.5 27.8))
+      (pin Round[A]Pad_160_mil 1 0 0)
+    )
+    (padstack Round[A]Pad_105_mil
+      (shape (circle Front 105))
+      (shape (circle Back 105))
+      (attach off)
+    )
+    (padstack Round[A]Pad_160_mil
+      (shape (circle Front 160))
+      (shape (circle Back 160))
+      (attach off)
+    )
+    (padstack Round[A]Pad_55_mil
+      (shape (circle Front 55))
+      (shape (circle Back 55))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Front 60))
+      (shape (circle Back 60))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_95x75_mil
+      (shape (path Front 75  -10 0  10 0))
+      (shape (path Back 75  -10 0  10 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_60x60_mil
+      (shape (rect Front -30 -30 30 30))
+      (shape (rect Back -30 -30 30 30))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_85x75_mil
+      (shape (rect Front -42.5 -37.5 42.5 37.5))
+      (shape (rect Back -42.5 -37.5 42.5 37.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net /0
+      (pins SW8-2 SW7-2 SW6-2 SW5-2 SW4-2 SW3-2 SW2-2 SW1-2 D66-1 U1-18 D68-1)
+    )
+    (net /1
+      (pins SW16-2 SW15-2 SW14-2 SW13-2 SW12-2 SW11-2 SW10-2 SW9-2 U1-35 D70-1 D73-1)
+    )
+    (net /2
+      (pins SW17-2 SW18-2 SW19-2 SW20-2 SW21-2 SW22-2 SW23-2 SW24-2 U1-32 D67-1 D69-1)
+    )
+    (net /3
+      (pins SW25-2 SW26-2 SW27-2 SW28-2 SW29-2 SW30-2 SW31-2 SW32-2 SW65-2 U1-36 D71-1
+        D74-1)
+    )
+    (net /4
+      (pins SW33-2 SW34-2 SW40-2 SW35-2 SW36-2 SW37-2 SW38-2 SW39-2 U1-17 D72-1 D75-1)
+    )
+    (net /5
+      (pins SW41-2 SW42-2 SW43-2 SW44-2 SW45-2 SW46-2 SW47-2 SW48-2 U1-16)
+    )
+    (net /6
+      (pins SW51-2 SW53-2 SW54-2 SW55-2 SW56-2 SW52-2 SW50-2 SW49-2 U1-15)
+    )
+    (net /7
+      (pins SW59-2 SW57-2 SW58-2 SW60-2 SW61-2 SW62-2 SW63-2 SW64-2 U1-14)
+    )
+    (net /8
+      (pins SW66-2 U1-13)
+    )
+    (net /A
+      (pins D1-2 D25-2 D17-2 D33-2 D9-2 D57-2 D41-2 D49-2 U1-22)
+    )
+    (net /B
+      (pins D26-2 D18-2 D10-2 D2-2 D34-2 D65-2 D58-2 D50-2 D42-2 U1-21)
+    )
+    (net /C
+      (pins D19-2 D27-2 D11-2 D3-2 D59-2 D51-2 D35-2 D43-2 U1-20)
+    )
+    (net /D
+      (pins D20-2 D28-2 D12-2 D4-2 D60-2 D52-2 D36-2 D44-2 U1-19)
+    )
+    (net /E
+      (pins D21-2 D29-2 D13-2 D5-2 D61-2 D53-2 D37-2 D45-2 U1-11)
+    )
+    (net /F
+      (pins D22-2 D30-2 D14-2 D6-2 D62-2 D54-2 D38-2 D46-2 U1-12)
+    )
+    (net /G
+      (pins D23-2 D31-2 D15-2 D7-2 D63-2 D55-2 D39-2 D47-2 U1-8)
+    )
+    (net /GND
+      (pins K1-2 U1-27)
+    )
+    (net /H
+      (pins D24-2 D32-2 D16-2 D8-2 D64-2 D56-2 D40-2 D48-2 U1-9)
+    )
+    (net /I
+      (pins SW66-1 U1-10)
+    )
+    (net /J
+      (pins P2-8 U1-5)
+    )
+    (net /K
+      (pins P1-8 U1-6)
+    )
+    (net "N-000001"
+      (pins SW55-1 D55-1)
+    )
+    (net "N-000002"
+      (pins SW40-1 D40-1)
+    )
+    (net "N-000003"
+      (pins SW32-1 D32-1)
+    )
+    (net "N-000004"
+      (pins SW24-1 D24-1)
+    )
+    (net "N-000005"
+      (pins SW63-1 D63-1)
+    )
+    (net "N-000006"
+      (pins SW47-1 D47-1)
+    )
+    (net "N-000007"
+      (pins SW39-1 D39-1)
+    )
+    (net "N-000008"
+      (pins SW31-1 D31-1)
+    )
+    (net "N-000009"
+      (pins SW23-1 D23-1)
+    )
+    (net "N-000010"
+      (pins SW48-1 D48-1)
+    )
+    (net "N-000011"
+      (pins SW56-1 D56-1)
+    )
+    (net "N-000012"
+      (pins SW64-1 D64-1)
+    )
+    (net "N-000013"
+      (pins SW33-1 D33-1)
+    )
+    (net "N-000014"
+      (pins SW41-1 D41-1)
+    )
+    (net "N-000015"
+      (pins SW49-1 D49-1)
+    )
+    (net "N-000016"
+      (pins SW57-1 D57-1)
+    )
+    (net "N-000017"
+      (pins SW18-1 D18-1)
+    )
+    (net "N-000018"
+      (pins SW53-1 D53-1)
+    )
+    (net "N-000019"
+      (pins SW44-1 D44-1)
+    )
+    (net "N-000020"
+      (pins SW52-1 D52-1)
+    )
+    (net "N-000021"
+      (pins SW60-1 D60-1)
+    )
+    (net "N-000022"
+      (pins SW21-1 D21-1)
+    )
+    (net "N-000023"
+      (pins SW29-1 D29-1)
+    )
+    (net "N-000024"
+      (pins SW37-1 D37-1)
+    )
+    (net "N-000025"
+      (pins SW45-1 D45-1)
+    )
+    (net "N-000026"
+      (pins SW61-1 D61-1)
+    )
+    (net "N-000027"
+      (pins SW22-1 D22-1)
+    )
+    (net "N-000028"
+      (pins SW30-1 D30-1)
+    )
+    (net "N-000029"
+      (pins SW38-1 D38-1)
+    )
+    (net "N-000031"
+      (pins SW46-1 D46-1)
+    )
+    (net "N-000032"
+      (pins SW54-1 D54-1)
+    )
+    (net "N-000033"
+      (pins SW62-1 D62-1)
+    )
+    (net "N-000034"
+      (pins SW26-1 D26-1 U1-25)
+    )
+    (net "N-000035"
+      (pins SW34-1 D34-1)
+    )
+    (net "N-000036"
+      (pins SW42-1 D42-1)
+    )
+    (net "N-000037"
+      (pins SW50-1 D50-1)
+    )
+    (net "N-000038"
+      (pins SW58-1 D58-1)
+    )
+    (net "N-000039"
+      (pins SW19-1 D19-1)
+    )
+    (net "N-000040"
+      (pins SW27-1 D27-1)
+    )
+    (net "N-000041"
+      (pins SW35-1 D35-1)
+    )
+    (net "N-000042"
+      (pins SW36-1 D36-1)
+    )
+    (net "N-000043"
+      (pins SW43-1 D43-1)
+    )
+    (net "N-000044"
+      (pins SW51-1 D51-1)
+    )
+    (net "N-000045"
+      (pins SW59-1 D59-1)
+    )
+    (net "N-000046"
+      (pins SW20-1 D20-1)
+    )
+    (net "N-000047"
+      (pins SW28-1 D28-1)
+    )
+    (net "N-000048"
+      (pins SW14-1 D14-1)
+    )
+    (net "N-000049"
+      (pins SW13-1 D13-1)
+    )
+    (net "N-000050"
+      (pins SW12-1 D12-1)
+    )
+    (net "N-000051"
+      (pins SW11-1 D11-1)
+    )
+    (net "N-000052"
+      (pins SW15-1 D15-1)
+    )
+    (net "N-000053"
+      (pins SW16-1 D16-1)
+    )
+    (net "N-000055"
+      (pins SW9-1 D9-1)
+    )
+    (net "N-000056"
+      (pins SW1-1 D1-1)
+    )
+    (net "N-000057"
+      (pins SW2-1 D2-1)
+    )
+    (net "N-000058"
+      (pins SW3-1 D3-1)
+    )
+    (net "N-000059"
+      (pins SW4-1 D4-1)
+    )
+    (net "N-000060"
+      (pins SW5-1 D5-1)
+    )
+    (net "N-000062"
+      (pins SW10-1 D10-1)
+    )
+    (net "N-000065"
+      (pins SW6-1 D6-1)
+    )
+    (net "N-000066"
+      (pins SW7-1 D7-1)
+    )
+    (net "N-000067"
+      (pins SW8-1 D8-1)
+    )
+    (net "N-000068"
+      (pins SW17-1 D17-1)
+    )
+    (net "N-000069"
+      (pins SW25-1 D25-1)
+    )
+    (net "N-000072"
+      (pins R1-2 U1-7)
+    )
+    (net "N-000076"
+      (pins P2-6 D75-2)
+    )
+    (net "N-000078"
+      (pins P2-4 D74-2)
+    )
+    (net "N-000079"
+      (pins P2-3 D69-2)
+    )
+    (net "N-000080"
+      (pins P2-2 D73-2)
+    )
+    (net "N-000084"
+      (pins SW65-1 D65-1 U1-26)
+    )
+    (net "N-000090"
+      (pins P2-1 D68-2)
+    )
+    (net "N-000101"
+      (pins P1-1 D66-2)
+    )
+    (net "N-000102"
+      (pins P1-3 D67-2)
+    )
+    (net "N-000103"
+      (pins P1-2 D70-2)
+    )
+    (net "N-000104"
+      (pins P1-4 D71-2)
+    )
+    (net "N-000105"
+      (pins P1-6 D72-2)
+    )
+    (net "N-000107"
+      (pins R1-1 K1-1 K1-3)
+    )
+    (class kicad_default "" /0 /1 /2 /3 /4 /5 /6 /7 /8 /A /B /C /D /E /F /G
+      /GND /H /I /J /K "N-000001" "N-000002" "N-000003" "N-000004" "N-000005"
+      "N-000006" "N-000007" "N-000008" "N-000009" "N-000010" "N-000011" "N-000012"
+      "N-000013" "N-000014" "N-000015" "N-000016" "N-000017" "N-000018" "N-000019"
+      "N-000020" "N-000021" "N-000022" "N-000023" "N-000024" "N-000025" "N-000026"
+      "N-000027" "N-000028" "N-000029" "N-000031" "N-000032" "N-000033" "N-000034"
+      "N-000035" "N-000036" "N-000037" "N-000038" "N-000039" "N-000040" "N-000041"
+      "N-000042" "N-000043" "N-000044" "N-000045" "N-000046" "N-000047" "N-000048"
+      "N-000049" "N-000050" "N-000051" "N-000052" "N-000053" "N-000055" "N-000056"
+      "N-000057" "N-000058" "N-000059" "N-000060" "N-000062" "N-000065" "N-000066"
+      "N-000067" "N-000068" "N-000069" "N-000072" "N-000076" "N-000078" "N-000079"
+      "N-000080" "N-000084" "N-000090" "N-000101" "N-000102" "N-000103" "N-000104"
+      "N-000105" "N-000107"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 19.7)
+        (clearance 19.8)
+      )
+    )
+  )
+  (wiring
+  )
+)
